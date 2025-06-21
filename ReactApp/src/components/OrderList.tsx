@@ -35,7 +35,7 @@ const OrderList = () => {
       {orders.map((order) => (
         <div className="card mb-3" key={order.id}>
           <div className="card-header bg-primary text-white">
-            <strong>Customer:</strong> {order.customerName}
+            <strong>My Customer:</strong> {order.customerName}
           </div>
           <div className="card-body">
             <p>
